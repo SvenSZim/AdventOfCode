@@ -6,7 +6,7 @@ My solution to the Advent of Code 2024
 ```bash
 # clone the repository
 git clone https://github.com/SvenSZim/AdventOfCode.git
-cd AdventOfCode/2024/days
+cd AdventOfCode/2024
 
 # choose the day
 cd day01
