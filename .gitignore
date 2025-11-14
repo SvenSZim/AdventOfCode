@@ -1,0 +1,13 @@
+day00/
+data/
+data.txt
+solution
+
+# python
+__pycache__/
+
+# cmake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+*.cmake
