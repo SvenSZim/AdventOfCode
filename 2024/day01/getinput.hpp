@@ -8,7 +8,7 @@
 typedef std::pair<std::vector<int>,std::vector<int>> ListPair;
 
 /**
- * @brief Function for converting the input data in data/maindata.txt into a
+ * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
  * @returns The input data formatted into two int-lists stored in ListPair

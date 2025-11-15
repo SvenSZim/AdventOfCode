@@ -8,7 +8,7 @@
 typedef std::vector<std::vector<int>> ListList;
 
 /**
- * @brief Function for converting the input data in data/maindata.txt into a
+ * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
  * @returns The input data formatted into a list of lists of integers
