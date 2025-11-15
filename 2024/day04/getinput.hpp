@@ -32,7 +32,7 @@ StrList readStringsFromFile(const string& filename) {
     if (line.find_first_not_of(" \t\n\r") == string::npos)
       continue;
 
-    result.push_back(line);
+    result.push_back(std::move(line));
   }
   return result;
 }
