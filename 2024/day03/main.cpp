@@ -67,7 +67,7 @@ int solutionToPuzzleOne(const string &convertedData) {
 }
 
 /**
- * @brief returns the solution to the problem stated by AOC2024::day01::2 with
+ * @brief returns the solution to the problem stated by AOC2024::day03::2 with
  * the given input data
  *
  * The second problem of the third day of AOC2024 consisted of finding the sum of
