@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
 # Define the project name and version
-project(SolutionToDay01 LANGUAGES CXX)
+project(SolutionToDay06 LANGUAGES CXX)
 
 # Define the source files
 set(SOURCES
