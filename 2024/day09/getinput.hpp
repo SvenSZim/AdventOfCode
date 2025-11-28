@@ -9,7 +9,7 @@
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted into a list of numbers
  */
 std::vector<int> parseData(const std::string& filename) {
   std::vector<int> result;

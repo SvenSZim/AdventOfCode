@@ -11,7 +11,7 @@ typedef std::pair<long, std::vector<long>> equation;
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted into a list of numbers and their equations to form the number
  */
 std::vector<equation> parseData(const std::string& filename) {
   std::ifstream infile(filename);

@@ -11,7 +11,7 @@ typedef std::string string;
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted as one string
  */
 string readStringFromFile(const string& filename) {
   string result, line;

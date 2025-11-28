@@ -12,7 +12,7 @@ typedef std::vector<string> StrList;
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted as a list of string
  */
 StrList readStringsFromFile(const string& filename) {
   StrList result;

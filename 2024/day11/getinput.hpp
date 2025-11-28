@@ -4,14 +4,16 @@
 #include <vector>
 #include <utility>
 #include <iostream>
+#include <unordered_map>
 
-typedef std::vector<std::vector<int>> data;
+typedef std::unordered_map<std::string,long> data;
 
 /**
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into a map of integer
+ * @returns The input data formatted into dictionary mapping the string (label of stone)
+ * to the number of stones having that label.
  */
 data parseData(const std::string& filename) {
   data result;
@@ -31,12 +33,14 @@ data parseData(const std::string& filename) {
     // Skip empty or whitespace-only lines
     if (line.find_first_not_of(" \t\n\r") == std::string::npos)
       continue;
-
-    std::vector<int> nline;
-    for (const char &c : line)
-      nline.emplace_back(c - '0');
-
-    result.emplace_back(nline);
+    
+    std::stringstream ss(line);
+    std::string value;
+    while (ss >> value) {
+      if (result.count(value) == 0)
+        result[value] = 0L;
+      result[value]++;
+    }
   }
   return result;
 }

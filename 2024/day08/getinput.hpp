@@ -11,7 +11,7 @@ typedef std::vector<std::vector<int>> data;
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted into a map of integer inscribing the antenna positions
  */
 data parseData(const std::string& filename) {
   data result;

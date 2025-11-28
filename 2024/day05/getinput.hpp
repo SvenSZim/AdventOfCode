@@ -13,7 +13,7 @@ typedef std::pair<std::vector<rule>, std::vector<list>> rulesNlists;
  * @brief Function for converting the input data in data/data.txt into a
  * usable format
  *
- * @returns The input data formatted into two lists of integers
+ * @returns The input data formatted into a list of 'rules' and a list of number-lists
  */
 rulesNlists parseFile(const std::string& filename) {
   std::vector<rule> rules;

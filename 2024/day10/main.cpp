@@ -15,11 +15,11 @@ int solutionToPuzzleTwo(const data &convertedData);
 int main() {
   data convertedData = parseData("data/data.txt");
 
-  int totalDifference = solutionToPuzzleOne(convertedData);
-  std::cout << "Solution to puzzle 1: " << totalDifference << std::endl;
+  int sol1 = solutionToPuzzleOne(convertedData);
+  std::cout << "Solution to puzzle 1: " << sol1 << std::endl;
 
-  int totalSimilarityScores = solutionToPuzzleTwo(convertedData);
-  std::cout << "Solution to puzzle 2: " << totalSimilarityScores << std::endl;
+  int sol2 = solutionToPuzzleTwo(convertedData);
+  std::cout << "Solution to puzzle 2: " << sol2 << std::endl;
 
   return 0;
 }
